@@ -26,6 +26,7 @@ import { ModalComponent } from './shared/modal/modal.component';
 import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
 import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
 import { ContainerComponent } from './shared/container/container.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ContainerComponent } from './shared/container/container.component';
     BotaoControleComponent,
     CardBuscaComponent,
     ContainerComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
