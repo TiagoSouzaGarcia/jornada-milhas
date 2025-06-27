@@ -27,6 +27,7 @@ import { BotaoControleComponent } from './shared/botao-controle/botao-controle.c
 import { CardBuscaComponent } from './shared/card-busca/card-busca.component';
 import { ContainerComponent } from './shared/container/container.component';
 import { HomeComponent } from './pages/home/home.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { HomeComponent } from './pages/home/home.component';
     MatDatepickerModule,
     MatNativeDateModule,
     MatDialogModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
